@@ -7,5 +7,5 @@ if haider_age == required_age:
 elif haider_age > required_age:
         print("Haider should join higher secondry")
 else:
-        print("Haider can't join school.")
+        print("Haider can't join school.")  
 
