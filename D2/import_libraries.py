@@ -8,5 +8,5 @@ x = [150, 250, 350, 450]
 print(statistics.mean(x))
 
 
-# Libraries examples:
+# Libraries examples:   
 # numpy, pandas etc
