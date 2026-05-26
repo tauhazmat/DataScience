@@ -10,7 +10,7 @@
 
 
 # For loops
-# for x in range (5,20):
+# for x in range (5,10):
 #     print(x)
  
 
