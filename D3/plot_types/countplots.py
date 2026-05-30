@@ -6,5 +6,5 @@ sns.set_theme(style="ticks", color_codes=True)
 
 titanic = sns.load_dataset("titanic")
 p1 = sns.countplot(x="sex", data=titanic, hue="class")
-p1.set_title("Plot for counting")
+p1.set_title("Plot for Counting")
 plt.show()
