@@ -9,5 +9,6 @@ print('''Test for tripple quotes''')
 # ''''''
 
 print("what's up?")
+print("Hi I am learning Python!")
 
 # Space counts and shows as it is in a string
