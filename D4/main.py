@@ -11,3 +11,15 @@ titanic
 
 plt.barplot(x= "sex", y="fare", data=titanic)
 # plt.show()  commented out plt.show so preview is not shown
+
+
+
+# making a data set of IRIS
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+flower = sns.load_dataset("iris")
+flower # Shows a chart of data of the flower "Iris"
+
+plt.barplot(x= "petal_width", y="petal_length", data=flower)
+# plt.show()  commented out plt.show() 
