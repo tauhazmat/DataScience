@@ -1,4 +1,4 @@
-print("This Directory contains Data Visualization Files")
+print("This Directory contains Data Visualization Files")  # D4/Data-Visualization
 
 
 
@@ -23,3 +23,16 @@ flower # Shows a chart of data of the flower "Iris"
 
 plt.barplot(x= "petal_width", y="petal_length", data=flower)
 # plt.show()  commented out plt.show() 
+
+
+# making data set of tips
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+tipsdata = sns.load_dataset("tip")
+tip # Shows a chart of data of the flower "Iris"
+
+plt.barplot(x= "petal_width", y="petal_length", data=tipsdata)
+# plt.show()  commented out plt.show() 
+
+
