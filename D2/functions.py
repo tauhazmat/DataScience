@@ -46,3 +46,13 @@ def future_age(age):
 
 future_predicted_age = future_age(5)
 print(future_predicted_age)
+
+
+
+
+
+# A basic print function
+# def printname(name)
+# greetings = "Hi!", name         
+# return greetings 
+# print(greetings)
