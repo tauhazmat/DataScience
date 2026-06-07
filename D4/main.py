@@ -36,4 +36,9 @@ tip # Shows a chart of data of the flower "Iris"
 plt.barplot(x= "petal_width", y="petal_length", data=tipsdata)
 # plt.show()  commented out plt.show() 
 
+def printalldata():
+  print(titaic_dataset)
+  print(flower)
+  print(tipsdata)
 
+printalldata()   # Prints all data
