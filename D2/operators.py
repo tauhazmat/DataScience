@@ -14,3 +14,11 @@ print(3**2) #3 power 2
 #PEMDAS:
 # Parenthesis Exponents Multiply Divide Addition Substraction
 # left to right sequence for M D & A S
+
+
+
+# practice
+print(10 + 20)
+print(30 - 20)
+print(90 / 3)
+print(13 % 15)
