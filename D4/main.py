@@ -42,3 +42,8 @@ def printalldata():
   print(tipsdata)
 
 printalldata()   # Prints all data
+
+
+
+
+car_data = sns.load_dataset("carcrashes") #data for cars-
