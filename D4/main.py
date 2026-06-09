@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 tipsdata = sns.load_dataset("tip")
 tip # Shows a chart of data of the flower "Iris"
 
-plt.barplot(x= "petal_width", y="petal_length", data=tipsdata)
+plt.barplot(x= "petal_width", y="petal_length", data=tipsdata) #loads tips data
 # plt.show()  commented out plt.show() 
 
 def printalldata():
